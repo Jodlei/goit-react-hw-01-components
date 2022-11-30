@@ -2,31 +2,50 @@ import styled from 'styled-components';
 
 export const ProfileWrap = styled.div`
   width: ${p => p.theme.boxWidth};
-  margin-left: auto;
-  margin-right: auto;
   padding: 10px;
   align-items: center;
   background-color: ${p => p.theme.colors.secondBgColor};
   box-shadow: ${p => p.theme.shadows.profileShadow};
   border-radius: 4%;
 `;
-export const Description = styled.div``;
+export const Description = styled.div`
+  padding: ${p => p.theme.space[3]}px;
+`;
 
 export const Avatar = styled.img`
   margin-left: auto;
   margin-right: auto;
-  width: 300px;
+  width: ${p => p.theme.avatarWidth};
+  border-radius: 50%;
 `;
 
-export const Username = styled.p``;
+export const Username = styled.p`
+  text-align: center;
+  margin-bottom: 10px;
+`;
 
-export const Tag = styled.p``;
+export const Tag = styled.p`
+  text-align: center;
+  margin-bottom: 10px;
+`;
 
-export const Location = styled.p``;
+export const Location = styled.p`
+  text-align: center;
+`;
 
-export const StatsList = styled.ul``;
+export const StatsList = styled.ul`
+  display: flex;
+  height: 100%;
+`;
 
-export const StatsItem = styled.li``;
+export const StatsItem = styled.li`
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 33%;
+  border: ${p => p.theme.borders.mainBorder};
+`;
 
 export const Label = styled.span``;
 

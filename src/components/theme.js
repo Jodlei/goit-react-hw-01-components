@@ -1,7 +1,7 @@
 export const theme = {
   colors: {
     mainBgColor: 'rgb(207, 186, 226)',
-    secondBgColor: 'rgb(214, 130, 130)',
+    secondBgColor: '#b4b2d3',
   },
   fonts: {
     body: 'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
@@ -9,6 +9,7 @@ export const theme = {
     monospace: 'Menlo, monospace',
   },
   boxWidth: '350px',
+  avatarWidth: '150px',
   fontSizes: [12, 14, 16, 20, 24, 32, 48, 64],
   space: [0, 4, 8, 16, 32, 64, 128, 256, 512],
 
@@ -22,7 +23,7 @@ export const theme = {
     heading: 1.125,
   },
   borders: {
-    profileItemsBorder: '0.5px solid #EBEDEF',
+    mainBorder: '0.5px solid #EBEDEF',
   },
   shadows: {
     profileShadow:
