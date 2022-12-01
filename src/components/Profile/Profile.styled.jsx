@@ -22,6 +22,7 @@ export const Avatar = styled.img`
 export const Username = styled.p`
   text-align: center;
   margin-bottom: 10px;
+  color: #e687f7;
 `;
 
 export const Tag = styled.p`
@@ -44,7 +45,6 @@ export const StatsItem = styled.li`
   flex-direction: column;
   justify-content: space-between;
   flex-basis: 33%;
-  border: ${p => p.theme.borders.mainBorder};
 `;
 
 export const Label = styled.span``;

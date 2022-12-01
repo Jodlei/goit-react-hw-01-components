@@ -6,4 +6,5 @@ export const Container = styled.div`
   align-items: center;
   padding-top: 30px;
   padding-bottom: 30px;
+  color: ${p => p.theme.colors.textColor};
 `;
